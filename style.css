@@ -1,0 +1,590 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 60%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.page {
+    display: flex;
+    color: white;
+    height: 100%;
+    overflow: hidden;
+}
+
+.left {
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to right, #4A1486 50%, #401176);
+}
+
+.left h1 {
+    font-size: 5rem;
+    overflow: hidden;
+}
+
+.left h3 {
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.left h4 {
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+.left .text {
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+
+.top .text {
+    transform: translateX(17rem);
+    z-index: 2;
+}
+
+.left .text h3 {
+    text-align: right;
+}
+
+.svg {
+    /* width: 600px; */
+    padding: 2rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #3D1576, #4B1488);
+    mix-blend-mode: overlay;
+}
+
+.svg img {
+    width: 300px;
+}
+
+.top {
+    margin-top: 8rem;
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    transform: translateX(10rem);
+}
+
+.bottom {
+    padding-left: 5rem;
+    overflow: hidden;
+    /* padding-top: 10rem; */
+}
+
+.bottom h1 {
+    padding-bottom: 1rem;
+}
+
+.bottom img {
+    padding-bottom: 3rem;
+}
+
+.right {
+    display: flex;
+    background-color: #CDCDCE;
+    z-index: 0;
+}
+
+.right .img1,
+.img2 {
+    margin-top: 15rem;
+    margin-left: 1.5rem;
+    z-index: 0;
+    width: 80%;
+    height: 80%;
+}
+
+.right .img2 {
+    transform: translateX(-10rem);
+}
+
+.page2 .svg {
+    all: unset;
+    padding: 2rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #3D1576, #4B1488);
+    mix-blend-mode: overlay;
+
+}
+
+.page2 .top {
+    transform: translateX(25rem);
+}
+
+
+.page2 .left {
+    background-image: url("");
+}
+
+.page2 .right {
+    background-color: #1C0260;
+}
+
+.page2 .svg {
+    background-image: url("");
+    background-color: #4C27CC;
+}
+
+.page2 .right {
+    width: 50%;
+    padding: 5rem;
+}
+
+.page2 .right img {
+    gap: 2rem;
+    width: 50%;
+    height: 60%;
+    margin-left: auto;
+}
+
+.page2 .img2 {
+    overflow: hidden;
+    margin-top: 0;
+    transform: translateX(0);
+    transform: translatey(-10rem);
+}
+
+.page2 .img1 {
+    margin-top: 60%;
+}
+
+
+
+.page3 .left,
+.page3 .left .svg {
+    background-color: #14273C;
+    background-image: url("");
+}
+
+.page3 .bottom img {
+    visibility: hidden;
+}
+
+.page3 .right {
+    min-width: 50%;
+    margin-top: 0;
+    background-color: #0D121A;
+    position: relative;
+}
+
+.page3 .img1 {
+    all: unset;
+    position: absolute;
+    top: -2rem;
+    left: -2rem;
+}
+
+.page3 .img2 {
+    all: unset;
+    position: absolute;
+    top: -14rem;
+    right: 1rem;
+}
+
+.page3 .img3 {
+    position: absolute;
+    bottom: 0rem;
+    left: 8rem;
+    width: 30%;
+}
+
+.page3 .img4 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 30%;
+}
+
+.page3 .img5 {
+    position: absolute;
+    bottom: -10rem;
+    right: -4rem;
+    width: 60%;
+}
+
+/* 104DA1 */
+.page4 .left,
+.page4 .left .svg {
+    background-color: #14273C;
+    background-image: url("");
+}
+
+.page4 .svg {
+    all: unset;
+    padding: 2rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #3D1576, #4B1488);
+    mix-blend-mode: overlay;
+
+}
+
+.page4 .top {
+    transform: translateX(22rem);
+}
+
+.page4 .bottom img {
+    visibility: hidden;
+}
+
+.page4 .right {
+    min-width: 50%;
+    margin-top: 0;
+    background-color: #2CCDDC;
+    position: relative;
+}
+
+.page4 .img1 {
+    all: unset;
+    position: absolute;
+    top: -15%;
+    left: 10%;
+    width: 25%;
+}
+
+.page4 .img2 {
+    all: unset;
+    position: absolute;
+    top: -4rem;
+    left: 40%;
+    width: 25%;
+}
+
+.page4 .img3 {
+    position: absolute;
+    bottom: 0rem;
+    left: 10%;
+    width: 25%;
+}
+
+.page4 .img4 {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    width: 25%;
+}
+
+.page4 .img5 {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    width: 25%;
+}
+
+.page5 .left,
+.page5 .left .svg {
+    background-color: #012C92;
+    background-image: url("");
+}
+
+.page5 .svg {
+    all: unset;
+    padding: 2rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #3D1576, #4B1488);
+    mix-blend-mode: overlay;
+
+}
+
+.page5 .top {
+    transform: translateX(18rem);
+}
+
+.page5 .bottom img {
+    visibility: hidden;
+}
+
+.page5 .right {
+    all: unset;
+    min-width: 50%;
+    margin-top: 0;
+    background-image: url("./assets/interior.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.page5 .img1 {
+    all: unset;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    object-position: center;
+}
+
+.page6 .left,
+.page6 .left .svg {
+    background-color: #00824c;
+    background-image: url("");
+}
+
+.page6 .svg {
+    all: unset;
+    padding: 2rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #3D1576, #4B1488);
+    mix-blend-mode: overlay;
+
+}
+
+.page6 .top {
+    transform: translateX(30rem);
+}
+
+
+.page6 .right {
+    min-width: 50%;
+    margin-top: 0;
+    background-color: #00b868;
+    position: relative;
+}
+
+.page6 .img1 {
+    all: unset;
+    position: absolute;
+    bottom: -10%;
+    left: 20%;
+    width: 50%;
+    z-index: 2;
+}
+
+.page6 .img2 {
+    all: unset;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    width: 40%;
+    z-index: 1;
+}
+
+.page7 .left,
+.page7 .left .svg {
+    background-color: #11143b;
+    background-image: url("");
+}
+
+.page7 .svg {
+    all: unset;
+    padding: 2rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #3D1576, #4B1488);
+    mix-blend-mode: overlay;
+
+}
+
+
+.page7 .top {
+    transform: translateX(20rem);
+}
+
+
+.page7 .right {
+    min-width: 50%;
+    margin-top: 0;
+    background-color: #141747;
+    position: relative;
+}
+
+.page7 .img1 {
+    all: unset;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 40%;
+    z-index: 2;
+}
+
+.page7 .img2 {
+    all: unset;
+    position: absolute;
+    top: -10%;
+    left: 60%;
+    width: 30%;
+    z-index: 1;
+}
+
+@media (max-width:1024px) {
+    .page {
+        flex-direction: column-reverse;
+        /* overflow: visible; */
+    }
+
+    .top {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
+        max-height: 40%;
+        /* overflow: visible; */
+        z-index: 5;
+    }
+
+    .bottom img {
+        position: absolute;
+        margin-top: -80px;
+        transform: translateY(-40px);
+        /* top: 70px; */
+        z-index: 10;
+        max-width: max-content;
+    }
+
+    .bottom {
+        margin-top: 50px;
+    }
+
+    .right {
+        all: unset;
+        min-width: 100%;
+        min-height: 60%;
+        position: relative;
+    }
+
+    .page1 .img1 {
+        all: unset;
+        position: absolute;
+        min-width: 150px;
+        width: 50%;
+        top: 0;
+        left: 0;
+    }
+
+    .page1 .img2 {
+        /* display: none; */
+        all: unset;
+        position: absolute;
+        min-width: 150px;
+        width: 50%;
+        top: 0;
+        right: 0;
+    }
+
+    .page2 .img1 {
+        all: unset;
+        position: absolute;
+        min-width: 150px;
+        width: 30%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .page2 .img2 {
+        all: unset;
+        position: absolute;
+        min-width: 150px;
+        max-width: 40%;
+        top: 0;
+        right: 4rem;
+    }
+
+    .page3 .img1 {
+        width: 40%;
+    }
+
+    .page3 .img2 {
+        width: 40%;
+    }
+
+    .page3 .img4 {
+        z-index: 1;
+    }
+
+    .page3 .img5 {
+        bottom: -10%;
+        right: 0;
+        z-index: 0;
+    }
+
+    .page5 .img1 {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .page5 .right {
+        all: unset;
+        min-height: 60%;
+        margin-top: 0;
+        background-image: url("./assets/interior.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+@media (max-width:425px) {
+    .bottom img {
+        width: 50%;
+        margin-top: -50px;
+    }
+}
+
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6,
+.page7 {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+.page1 {
+    z-index: 20;
+}
+
+.page2 {
+    z-index: 19;
+    opacity: 0;
+
+}
+
+.page3 {
+    z-index: 18;
+    opacity: 0;
+
+}
+
+.page4 {
+    z-index: 17;
+    opacity: 0;
+
+}
+
+.page5 {
+    z-index: 16;
+    opacity: 0;
+
+}
+
+.page6 {
+    z-index: 15;
+    opacity: 0;
+
+}
+
+.page7 {
+    z-index: 14;
+    opacity: 0;
+
+}
